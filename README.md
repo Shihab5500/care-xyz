@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Care.xyz - Professional Caregiving Service Platform
 
-## Getting Started
 
-First, run the development server:
+## 🚀 Live Demo
+**[🌐 View Live Site](https://carehub-xyz.vercel.app/)** *(Replace this link with your actual Vercel deployment link)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📖 Project Overview
+**Care.xyz** is a full-stack web application designed to connect users with professional caregivers. Whether it's **Child Care**, **Elderly Care**, or **Medical Support**, users can easily browse services, view details, and book appointments.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The platform ensures a seamless user experience with secure authentication, real-time booking management, and automated email invoices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Key Features
 
-To learn more about Next.js, take a look at the following resources:
+### 🔐 Authentication & Security
+- **User Registration & Login:** Secure email/password authentication using **Bcrypt** for encryption.
+- **Social Login:** One-click sign-in with **Google (Firebase Auth)**.
+- **Session Management:** Persisted user sessions using LocalStorage.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🛠 Service Management
+- **Dynamic Service Pages:** Detailed view for each service (Child Care, Physiotherapy, etc.) with dynamic metadata for SEO.
+- **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop using **Tailwind CSS**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📅 Booking System
+- **Smart Booking Form:** Users can select dates, duration, and calculate total cost instantly.
+- **Database Integration:** All bookings are stored securely in **MongoDB**.
+- **User Dashboard:** A private "My Bookings" route where users can track their booking history.
 
-## Deploy on Vercel
+### 📧 Automated Notifications
+- **Email Invoices:** Automated booking confirmation emails sent via **Nodemailer**.
+- **Interactive UI:** Beautiful pop-up alerts using **SweetAlert2** for success/error messages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💻 Tech Stack Used
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion |
+| **Backend** | Next.js API Routes (Serverless) |
+| **Database** | MongoDB, Mongoose |
+| **Authentication** | Firebase Auth, Custom JWT Logic |
+| **Tools** | Nodemailer (Email), SweetAlert2 (UI), React Icons |
+| **Deployment** | Vercel |
+
+---
