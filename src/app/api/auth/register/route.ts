@@ -1,6 +1,9 @@
 
-import { connectDB } from "../../../../lib/db"; 
-import User from "../../../../models/User";
+// import { connectDB } from "../../../../lib/db"; 
+// import User from "../../../../models/User";
+
+import { connectDB } from "@/lib/db"; 
+import User from "@/models/User";
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 
